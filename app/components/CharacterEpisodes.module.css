@@ -1,0 +1,29 @@
+.episodesContainer {
+    display: flex; 
+    justify-content: space-around; 
+  }
+  
+  .episodeSection {
+    flex: 1;  
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .episodeList {
+    list-style-type: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .episodeListItem {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  .episodeListItem:last-child {
+    border-bottom: none; 
+  }
+  
